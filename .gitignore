@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+
+# build output (the committed single-file app is index.html)
+dist/
+
+# local QA / screenshot tooling
+shots/
+qa/
+*.log
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
