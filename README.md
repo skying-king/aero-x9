@@ -110,24 +110,7 @@ Chrome / Edge / Firefox 新版。WebGL2 下可获得最佳 HDR Bloom 效果；�
 | `?ui=0` | 隐藏 HUD |
 | `?camtheta=0.8&camphi=1.2&camradius=5` | 指定初始相机方位 / 俯仰 / 距离 |
 
-## 发布到 GitHub
 
-1. 在 GitHub 新建一个空仓库（不要勾选初始化 README / .gitignore）。
-2. 上传本目录中的全部文件，或在本目录执行：
-
-```bash
-git init
-git add .
-git commit -m "AERO X-9: interactive 3D drone"
-git branch -M main
-git remote add origin https://github.com/<你的用户名>/<仓库名>.git
-git push -u origin main
-```
-
-3. 打开仓库 `Settings → Pages`，Source 选择 `Deploy from a branch`，分支选 `main`、目录选 `/ (root)`，保存。
-4. 稍等片刻，访问 `https://<你的用户名>.github.io/<仓库名>/` 即可在线体验。
-
-> 根目录的 `index.html` 已针对 GitHub Pages 放在入口位置；`.nojekyll` 用于跳过 Jekyll 处理。页面完全静态，无构建步骤也能直接部署。
 
 ## 隐私说明
 
