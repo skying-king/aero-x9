@@ -1,0 +1,22 @@
+{
+  "name": "aero-x9-drone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AERO X-9 — interactive, procedurally modeled 3D quadrotor with exploded view, tech HUD and flight controls. Single-file WebGL page.",
+  "scripts": {
+    "build": "node tools/build.mjs --out=index.html"
+  },
+  "keywords": [
+    "threejs",
+    "webgl",
+    "3d",
+    "drone",
+    "quadrotor",
+    "interactive",
+    "procedural",
+    "hud"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
